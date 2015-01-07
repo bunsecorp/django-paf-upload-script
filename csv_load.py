@@ -1,9 +1,9 @@
 import csv, sys, os, datetime
-your_djangoproject_home="/home/gilly/django-software/bunsesite/"
-csv_filepathname="/home/gilly/paf/CSV PAF.csv"
+your_djangoproject_home="~/django-software/website/"
+csv_filepathname="~/paf/CSV PAF.csv"
 
 sys.path.append(your_djangoproject_home)
-os.environ['DJANGO_SETTINGS_MODULE'] = 'bunsesite.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'website.settings'
 
 from ratedtenant.models import PostalAddress
 
