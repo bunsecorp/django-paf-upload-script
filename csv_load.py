@@ -5,7 +5,7 @@ csv_filepathname="~/paf/CSV PAF.csv"
 sys.path.append(your_djangoproject_home)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'website.settings'
 
-from ratedtenant.models import PostalAddress
+from websiteapp.models import PostalAddress
 
 with open(csv_filepathname, 'rb') as f:
     reader = csv.reader(f)
