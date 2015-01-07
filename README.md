@@ -22,3 +22,6 @@ vi "CSV PAF.csv"
 dgg
 :wq
 
+Email founders@bunse.co for further information
+Websites https://bunse.co https://theapp.co.uk
+Humans.txt Joe and Gilly
